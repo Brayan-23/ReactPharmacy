@@ -1,4 +1,4 @@
- import saude from '../../assets/saude.jpg' 
+ import saudaveis from '../../assets/saudaveis.jpg' 
 import ListaCategorias from '../../components/category/listCategory/ListCategory';
 /* import ListaPostagens from '../../components/posts/listPosts/listPosts';
 import ModalPostagem from '../../components/posts/modalPost/modalPost'; */
@@ -20,7 +20,7 @@ function Home() {
             </div>
             </div>
             <div className="flex justify-center ">
-              <img src={saude} alt="" className='w-2/3' />
+              <img src={saudaveis} alt="" className='w-2/3' />
             </div>
           </div>
         </div>
