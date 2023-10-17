@@ -1,4 +1,5 @@
  import saude from '../../assets/saude.jpg' 
+import ListaCategorias from '../../components/category/listCategory/ListCategory';
 /* import ListaPostagens from '../../components/posts/listPosts/listPosts';
 import ModalPostagem from '../../components/posts/modalPost/modalPost'; */
 
@@ -23,7 +24,7 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* <ListaPostagens /> */}
+        {<ListaCategorias />}
       </>
     );
 }

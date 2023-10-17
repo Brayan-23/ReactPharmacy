@@ -4,5 +4,5 @@ export default interface ICategory {
     id: number,
     name: string,
     description: string,
-    product: IProduct | null
+    product?: IProduct | null
 }
